@@ -22,8 +22,8 @@ const HomeWrapper = styled.div`
 When I visit the homepage, I would expect only the CSS from `HomeWrapper` and `Button` to be loaded. The dependency graph would look like:
 
 ```
-- Homepage
-|_ Button
+Homepage
+└── Button
 ```
 
 When I run a production build, however, the following CSS file is generated for the homepage:
