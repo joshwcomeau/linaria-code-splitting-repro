@@ -5,7 +5,9 @@ export function AboutPage() {
   return (
     <AboutWrapper>
       Hello World
+      <br />
       <Button>Magenta button</Button>
+      <br />
       <a href="/">Go to homepage</a>
     </AboutWrapper>
   );
@@ -13,10 +15,6 @@ export function AboutPage() {
 
 const AboutWrapper = styled.div`
   --css-file: about-page;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 16px;
 `;
 
 export default AboutPage;

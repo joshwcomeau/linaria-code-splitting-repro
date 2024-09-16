@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <HomeWrapper>
       Homepage
+      <br />
       <Button>Magenta Button</Button>
+      <br />
       <a href="/about">Go to about page</a>
     </HomeWrapper>
   );
@@ -14,8 +16,4 @@ export default function Home() {
 
 const HomeWrapper = styled.div`
   --css-file: homepage;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 16px;
 `;
