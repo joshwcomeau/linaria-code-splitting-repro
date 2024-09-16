@@ -1,6 +1,4 @@
 // next.config.js
-import withLinaria from 'next-with-linaria';
+import { withPigment } from '@pigment-css/nextjs-plugin';
 
-const config = {};
-
-export default withLinaria(config);
+export default withPigment({});

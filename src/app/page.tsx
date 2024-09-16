@@ -1,6 +1,7 @@
 import { styled } from '@linaria/react';
 
 import Button from '@/components/Button';
+import BonusThing from '@/components/BonusThing';
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Button>Magenta Button</Button>
       <br />
       <a href="/about">Go to about page</a>
+      <br />
+      <BonusThing />
     </HomeWrapper>
   );
 }
