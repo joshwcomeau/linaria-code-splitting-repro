@@ -1,7 +1,7 @@
 import Button from '@/components/Button';
 import { styled } from '@linaria/react';
 
-export function AboutPage() {
+function AboutPage() {
   return (
     <AboutWrapper>
       Hello World
