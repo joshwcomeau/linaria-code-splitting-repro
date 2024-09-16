@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import '@pigment-css/react/styles.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',

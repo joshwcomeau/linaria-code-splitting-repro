@@ -7,10 +7,15 @@ export default function Home() {
     <HomeWrapper>
       Homepage
       <Button>Magenta Button</Button>
+      <a href="/about">Go to about page</a>
     </HomeWrapper>
   );
 }
 
 const HomeWrapper = styled.div`
-  background: dodgerblue;
+  --css-file: homepage;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
 `;

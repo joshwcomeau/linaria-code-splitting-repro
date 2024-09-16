@@ -1,7 +1,6 @@
 // next.config.js
-import { withPigment } from '@pigment-css/nextjs-plugin';
+import withLinaria from 'next-with-linaria';
 
-/** @type {import('next-with-linaria').LinariaConfig} */
 const config = {
   trailingSlash: true,
 
@@ -26,4 +25,4 @@ const config = {
   },
 };
 
-export default withPigment(config);
+export default withLinaria(config);

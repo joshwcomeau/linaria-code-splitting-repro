@@ -6,6 +6,7 @@ function Button({ children }: { children: React.ReactNode }) {
 }
 
 const Btn = styled.button`
+  --css-file: button;
   color: magenta;
 `;
 

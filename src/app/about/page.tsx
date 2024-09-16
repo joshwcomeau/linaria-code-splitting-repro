@@ -6,12 +6,17 @@ export function AboutPage() {
     <AboutWrapper>
       Hello World
       <Button>Magenta button</Button>
+      <a href="/">Go to homepage</a>
     </AboutWrapper>
   );
 }
 
 const AboutWrapper = styled.div`
-  background: peachpuff;
+  --css-file: about-page;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
 `;
 
 export default AboutPage;
